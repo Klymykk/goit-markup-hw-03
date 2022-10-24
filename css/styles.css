@@ -34,25 +34,26 @@ ol{
     padding-left: 0;
 }
 
-.container{
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-}
-
 img{
     display: block;
-}
-.section{
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 body{
     font-family: 'Roboto', sans-serif;
     color: var(--primary-text-color);
     background-color: var(--primari-background-color);
+}
+
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
 
 .list{
@@ -210,6 +211,8 @@ body{
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
+
+    margin-bottom: 50px;
 }
 
 /* ------------------SECTION TEAM----------------- */
@@ -220,6 +223,7 @@ body{
 
 .team-item{
     background-color: var(--primari-background-color);
+    padding-bottom: 30px;  
 }
 
 
@@ -311,6 +315,13 @@ body{
 .filter-btn:focus{
     color: var(--dark-background-text-color); 
     background-color:var(--accent-color);
+}
+
+.portfolio-item{
+    padding-bottom: 20px;
+
+    /* border-color: aqua;
+    border-style: solid; */
 }
 
 .portfolio-title{

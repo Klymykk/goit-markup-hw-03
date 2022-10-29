@@ -87,6 +87,11 @@ body{
     padding-bottom: 25px;
 }
 
+.header-container{
+    display: flex;
+    align-items:center;
+}
+
 .header-logo,
 .footer-logo{
     font-family: 'Raleway', sans-serif;
@@ -102,6 +107,13 @@ body{
 
 .header-logo{
     color: var(--logo-header-color);
+    margin-right: 94px;
+}
+
+.nav-list{
+    display: flex;
+    align-items:center;
+    gap: 30px;
 }
 
 .nav-list .current{
@@ -119,6 +131,12 @@ body{
 .nav-link:focus
 {
     color:var(--accent-color);
+}
+
+.header-contacts-list{
+    display: flex;
+    margin-left: auto;
+    gap: 50px;
 }
 
 .header-contacts{
@@ -169,6 +187,7 @@ body{
     
     display: block;
     margin: 0 auto;
+    padding: 10px 32px;
 }
 
 .hero-btn:hover,

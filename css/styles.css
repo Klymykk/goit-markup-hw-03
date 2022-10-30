@@ -137,7 +137,7 @@ body{
 
     padding-top: 32px;
     padding-bottom: 32px;
-    display: inline-block;
+    display: block;
 }
 
 .nav-link:hover,
@@ -161,7 +161,7 @@ body{
 
     padding-top: 32px;
     padding-bottom: 32px;
-    display: inline-block;
+    display: block;
 }
 
 .header-contacts:hover,
@@ -204,7 +204,6 @@ body{
     cursor: pointer;
     
     min-width: 216px;
-    height: 50px;
     padding: 10px 32px;
     border:0;
     border-radius: 4px;
